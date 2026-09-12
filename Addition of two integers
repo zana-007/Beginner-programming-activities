@@ -11,4 +11,7 @@ print('Welcome to sum calculator!\n") #using \n creates a line space and next pr
 #call the function to calculate
 sum_total=add_numbers(5,20)
 
-print('the sum is:' sum_total) # displays the message 'the sum is:' then returns the result from called function
+# displays the message 'the sum is:' then returns the result from called function
+print('the sum is:' sum_total) 
+
+#the result of above print will be: the sum is: 25
