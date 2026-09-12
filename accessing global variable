@@ -1,0 +1,12 @@
+#using count=0 as global variable which sits outside the functions
+count=0
+def increment():
+  global count
+  count+=5
+  print(f'count inside function: {count}')
+
+#call the function however many times
+#every time the function is called it displays the new count increment
+increment() #result here will be 5
+increment() #result here will be 10
+increment() #result here will be 15
