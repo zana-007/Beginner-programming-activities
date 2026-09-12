@@ -1,0 +1,21 @@
+#share global data between functions
+
+count=0
+
+#increasing the count by x value
+def count_of(x):
+  global count
+  count += x
+  return count #saves the count in memory
+
+#second function to display
+def display(count):
+  print(f'{count}')
+
+#calling the function 3 times to see result
+count_of(5)
+display(count) #result here is 5 as it adds to 0
+count_of(10)
+display(count) #result here is 15 as 10 adds to 5 from previous function
+count_of(20)
+display(count) #result here is 35 as 20 addes t0 15 from previous function
