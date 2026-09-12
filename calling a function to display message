@@ -1,0 +1,6 @@
+#greet example
+#using function to display when called
+def greet():
+  print('Hello Princess!') #use the print function to display the result
+
+greet() #calling the function above
