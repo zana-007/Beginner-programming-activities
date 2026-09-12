@@ -1,0 +1,6 @@
+#greet user by name
+def Salam(name):
+  print(f'Salam {name}!')
+
+#calling the function 
+Salam('Ali') #the result of the print function inserts Ali in the {name} placeholder
