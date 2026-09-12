@@ -1,0 +1,14 @@
+"""
+using function to add two integers and returning the total into memory.
+calling the return later
+"""
+def add_numbers(a,b): #create function to add numbers
+  total = a + b
+  return total #store result in return memory
+
+print('Welcome to sum calculator!\n") #using \n creates a line space and next print will be second line
+
+#call the function to calculate
+sum_total=add_numbers(5,20)
+
+print('the sum is:' sum_total) # displays the message 'the sum is:' then returns the result from called function
