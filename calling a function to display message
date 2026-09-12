@@ -3,4 +3,5 @@
 def greet():
   print('Hello Princess!') #use the print function to display the result
 
-greet() #calling the function above
+#calling the function above
+greet() #result here will be Hello Princess!
